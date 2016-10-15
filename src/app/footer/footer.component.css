@@ -1,0 +1,11 @@
+.footer{
+    height: 74px;
+    width: 100%;
+    color: #ffffff;
+    background: #000000;
+}
+
+.row {
+     margin-right: 0px !important;
+     margin-left: 0px !important; 
+}
