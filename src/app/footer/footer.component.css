@@ -1,4 +1,4 @@
-.footer-outer-div{
+/*.footer-outer-div{
     background: #ededed;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -43,4 +43,21 @@ ul{
 
 .social-icons-div > .row > .col-xs-4{
     padding-left: 0px;
+}*/
+
+@media (max-width: 480px){
+.btn-group.pull-right, .footer-bottom .pull-left, .footer-bottom .pull-right, .mainmenu.pull-left, .media.commnets .pull-left, .media-list .pull-left {
+    float: none !important;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    text-align: center;
+}
+
+}
+
+.footer-bottom {
+    background: #D6D6D0;
+    padding-top: 10px;
 }

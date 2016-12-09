@@ -1,17 +1,67 @@
 .navbarHeader{
-    background: #000000;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 5px;
+    background: none repeat scroll 0 0 #F0F0E9;
+    color: #333;
 }
-.logoImg{
+
+@media (max-width: 480px){
+    .social-icons.pull-right {
+        float: none !important;
+        text-align: center;
+    }
+    .contactinfo .nav.nav-pills, .social-icons .nav.navbar-nav {
+        display: inline-block;
+    }
+    .contactinfo {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .social-icons ul li a i {
+        padding: 8px 10px;
+    }
+}
+
+.social-icons ul li {
+    display: inline-block;
+}
+
+.social-icons ul li a i {
+    padding: 11px 15px;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+
+.contactinfo ul li a {
+    font-size: 12px;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactinfo ul li a:hover {
+    background: inherit;
+}
+
+.social-icons ul li a {
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    padding: 0px;
+}
+
+
+
+/*.logoImg{
     width: 100px;
 }
 .logoText{
     margin-left: -25px;
-    font-size: 25px;
+    font-size: 12px;
     font-weight: bold;
-}
+}*/
 .row {
      margin-right: 0px !important;
      margin-left: 0px !important; 

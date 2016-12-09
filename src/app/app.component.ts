@@ -3,6 +3,7 @@ import { ChildCompComponent } from './child-comp/child-comp.component';
 import { HeaderbarComponent } from './headerbar/headerbar.component';
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { FooterComponent } from './footer/footer.component';
+import {Iitem} from './interfaces/item';
 
 @Component({
   selector: 'app-root',
