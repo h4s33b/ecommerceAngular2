@@ -1766,8 +1766,6 @@ h2.title {
   margin-right: 10px
 }
 
-.user_info > li > span {
-}
 
 .user_info input, select, textarea {
   background: #F0F0E9;
@@ -2815,6 +2813,11 @@ ul.sub-menu{
 
 .well{
 	display: inline-block;
+}
+
+.navbar-collapse{
+  padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 
 }
