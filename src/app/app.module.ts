@@ -20,7 +20,7 @@ import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
-  { path: 'product-details', component: ProductDetailComponent },
+  { path: 'product-details/:id', component: ProductDetailComponent },
   { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent }
   // { path: 'hero/:id', component: HeroDetailComponent },

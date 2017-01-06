@@ -20,8 +20,6 @@ export class CartService {
         })
         if (isNewItem) {
             item.quantity = quantity;
-            // var oldItem = item;
-            // oldItem['quantity'] = quantity;
             this.items.push(item);
         }
     }
