@@ -4,7 +4,8 @@ export interface Iitem {
     price : number;
     Condition?: string;
     Brand ?: string;
-    Availability : string
-    imagesUrl ?: string[]
+    Availability : string;
+    imagesUrl ?: string;
     details ?: string;
+    quantity ?: number;
 }
