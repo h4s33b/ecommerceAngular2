@@ -12,6 +12,7 @@ import { CartService } from './shopping-cart/cart.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProductDetailComponent } from './product-details/product-details.component'
+import { CartDetailComponent } from './cart-detail/cart-detail.component'
 import { NotFoundComponent } from './notFound/notFound.component';
 import { ChildCompComponent } from './child-comp/child-comp.component';
 import { TopNavbarComponent } from './top-navbar/top-navbar.component';
@@ -21,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   { path: 'product-details/:id', component: ProductDetailComponent },
+  { path: 'cart-details',component : CartDetailComponent},
   { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent }
   // { path: 'hero/:id', component: HeroDetailComponent },
@@ -46,7 +48,8 @@ const appRoutes: Routes = [
     FooterComponent,
     HomeComponent,
     ProductDetailComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CartDetailComponent
   ],
   imports: [
     AlertModule,
